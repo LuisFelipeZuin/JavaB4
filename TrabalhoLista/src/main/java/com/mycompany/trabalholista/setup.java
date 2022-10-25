@@ -9,18 +9,18 @@ public class setup<T>{
         this.prox = prox;
         this.ant = ant;
   }
-  public void setInfo(T conteudo) {
+  public void setInfo(T info) {
         this.info = info;
   }
    public T getInfo() {
         return info;
   }   
-   public setup<T> getAnt() {
-        return ant;
-  }
    public void setAnt(setup<T> ant) {
         this.ant = ant;
-  }      
+  } 
+   public setup<T> getAnt() {
+        return ant;
+  }       
    public void setProx(setup<T> prox) {
         this.prox = prox;
   }
