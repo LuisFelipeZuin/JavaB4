@@ -1,15 +1,11 @@
 package com.mycompany.trabalholista;
 
 public class Executor {
-
     
-    public static void main(String[] args) {
-      ListaL lista = new ListaL();
-        
-   System.out.println("Tamanho inicial:");
-   System.out.println(lista.getTamanho());       
-   System.out.println("");      
-        
+ public static void main(String[] args) {
+     
+     ListaL lista = new ListaL();
+                    
      lista.começo(1);
      lista.segmento(20);
      lista.segmento(39);
@@ -19,10 +15,10 @@ public class Executor {
      lista.segmento(180);
      
 
-   System.out.println("Tamanho atual:");
-   System.out.println(lista.getTamanho());
-   System.out.println("");                      
+   System.out.println("Tamanho:");
+   System.out.println(lista.getTamanho());                      
      lista.mostrarNós();
+   
    System.out.println("--------------------");
         
        
